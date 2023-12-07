@@ -8,7 +8,7 @@ pipeline:
       codebase:
         build: <+input>
         connectorRef: sandbox
-        repoName: jimsheldon-sandbox/vagrant
+        repoName: vagrant
   stages:
     - stage:
         identifier: build
