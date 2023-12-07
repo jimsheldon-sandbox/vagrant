@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jimsheldon_sandbox_vagrant_1701959596241-pr-trigger-input-set
+  identifier: Build_jimsheldon_sandbox_vagrant_1701959596241prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jim_sheldon_nov27
+  pipeline:
+    identifier: Build_jimsheldon_sandbox_vagrant_1701959596241
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
